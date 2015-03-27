@@ -1,3 +1,7 @@
+" pathogen
+call pathogen#infect()
+call pathogen#helptags()
+
 set t_Co=256
 set termencoding=utf-8
 set encoding=utf-8
