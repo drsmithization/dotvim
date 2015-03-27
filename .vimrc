@@ -63,7 +63,6 @@ map <c-h> <c-w>h
 
 " vim-airline
 "
-let g:airline#extensions#hunks#enabled=1
 
 " python-mode
 "
@@ -74,5 +73,6 @@ let g:pymode_rope_goto_definition_bind = "<C-]>"
 " run linter on the fly
 let g:pymode_lint_onfly = 1
 
-" fuck this error about long lines
+" stupid PEP
 let g:pymode_lint_ignore = "E501"
+let g:pymode_lint_ignore = "E221"
