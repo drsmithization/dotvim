@@ -74,5 +74,4 @@ let g:pymode_rope_goto_definition_bind = "<C-]>"
 let g:pymode_lint_onfly = 1
 
 " stupid PEP
-let g:pymode_lint_ignore = "E501"
-let g:pymode_lint_ignore = "E221"
+let g:pymode_lint_ignore = "E501,E221"
