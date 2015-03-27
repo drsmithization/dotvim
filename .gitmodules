@@ -4,3 +4,9 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = git://github.com/klen/python-mode.git
+[submodule "bundle/conque-shell"]
+	path = bundle/conque-shell
+	url = https://github.com/oplatek/Conque-Shell.git
