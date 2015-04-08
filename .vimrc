@@ -69,6 +69,7 @@ map <c-h> <c-w>h
 
 " Override go-to.definition key shortcut to Ctrl-]
 let g:pymode_rope_goto_definition_bind = "<C-]>"
+let g:pymode_doc = 0
 
 " run linter on the fly
 let g:pymode_lint_onfly = 1
