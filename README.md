@@ -16,6 +16,7 @@ git submodule update
 ## Windows
 
 ### x64 vim (if installed python is x64)
+https://tuxproject.de/projects/vim/
 
 ### Setup
 ```
