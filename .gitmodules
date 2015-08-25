@@ -10,3 +10,6 @@
 [submodule "bundle/conque-shell"]
 	path = bundle/conque-shell
 	url = https://github.com/oplatek/Conque-Shell.git
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
