@@ -62,6 +62,8 @@ map <c-h> <c-w>h
 " font on windows
 if has("gui_running")
   if has("gui_win32")
+" dirty hack
+    set lines=999 columns=999
     set guifont=Consolas:h11:cANSI
   endif
 endif
