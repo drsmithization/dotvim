@@ -1,4 +1,4 @@
-nstallation:
+###Setup
 
     git clone git://github.com/drsmithization/dotvim.git ~/.vim
 
@@ -12,3 +12,9 @@ Switch to the `~/.vim` directory, and fetch submodules:
     git submodule init
     git submodule update
 
+###Windows Setup
+
+```
+git clone https://github.com/drsmithization/dotvim.git _viminfo
+mklink /H _vimrc _viminfo\.vimrc
+```
