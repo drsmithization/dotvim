@@ -12,7 +12,12 @@ cd ~/.vim
 git submodule init
 git submodule update
 ```
-###Windows Setup
+
+## Windows
+
+### x64 vim (if installed python is x64)
+
+### Setup
 ```
 git clone https://github.com/drsmithization/dotvim.git vimfiles
 mklink /H _vimrc vimfiles\.vimrc
@@ -21,5 +26,5 @@ git submodule init
 git submodule update
 ```
 
-###Windows: Plugins Setup
+### Plugins
 * make sure that %HOME% and %userprofile% are set to something similar to C:\Users\Username
