@@ -14,9 +14,9 @@ git submodule update
 ```
 ###Windows Setup
 ```
-git clone https://github.com/drsmithization/dotvim.git _viminfo
-mklink /H _vimrc _viminfo\.vimrc
-cd _viminfo
+git clone https://github.com/drsmithization/dotvim.git vimfiles
+mklink /H _vimrc vimfiles\.vimrc
+cd vimfiles
 git submodule init
 git submodule update
 ```
