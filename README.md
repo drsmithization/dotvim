@@ -20,3 +20,6 @@ cd _viminfo
 git submodule init
 git submodule update
 ```
+
+###Windows: Plugins Setup
+* make sure that %HOME% and %userprofile% are set to something similar to C:\Users\Username
